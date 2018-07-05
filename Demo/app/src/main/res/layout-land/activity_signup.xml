@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register_activity_back_ground"
+    android:gravity="center"
+    android:orientation="horizontal"
+    tools:context="com.example.hakeem.demo.SignupActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo" />
+
+        <!--** android:background="@drawable/rounded_gmail_signup" -->
+        <LinearLayout
+            android:id="@+id/login_in_with_gmail"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/x_gma_ci"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/google_plus"
+                app:civ_border_color="@color/white"
+                app:civ_border_width="2dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:fontFamily="serif"
+                android:text="Gmail"
+                android:textColor="@color/textColor"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+
+        <!--**android:background="@drawable/rounded_gmail_signup"-->
+        <Button
+            android:id="@+id/btn_signup"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/x_gma_ci"
+            android:fontFamily="serif"
+            android:text="@string/register"
+            android:textAllCaps="false"
+            android:textColor="@color/textColor" />
+
+        <TextView
+            android:id="@+id/link_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:gravity="bottom"
+            android:text="@string/already_a_member_login"
+            android:textColor="@color/SolidColorCursor"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true"
+            android:layout_marginTop="2dp"
+            android:background="#8c995038"
+            android:layout_margin="15dp">
+
+            <include
+                android:id="@+id/user_required_info"
+                layout="@layout/registration_user_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

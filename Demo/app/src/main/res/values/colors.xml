@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- <color name="colorPrimary">#7C514E</color> -->
+    <color name="colorPrimary">#7C514E</color>
+    <color name="colorPrimaryDark">#533733</color>
+    <color name="colorAccent">#ea512702</color>
+    <color name="primary_darker">#CC1D1D</color>
+
+    <color name="colorAccentSecondary">#ad1a7f</color>
+
+    <!-- styling app -->
+    <color name="textColorHint">#f95b3a36</color>
+    <color name="inputTextColor">#533733</color>
+    <color name="solidColorRoundedBrown">#52544242</color>
+    <color name="stokeColorRoundedBrown">#612004</color>
+    <color name="SolidColorCursor">#ea512702</color>
+
+    <color name="textColor">#bfa76e4f</color>
+
+    <color name="alert_back">#943b0a</color>
+    <!--mine-->
+
+    <color name="first">#0c8420</color>
+    <color name="second">#0611e6</color>
+    <color name="third">#bf5858</color>
+
+    <color name="fifth">#fa0101</color>
+
+
+
+    <color name="bg_login">#26ae90</color>
+    <color name="bg_register">#2e3237</color>
+    <color name="bg_main">#428bca</color>
+    <color name="input_login">#222222</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register">#888888</color>
+    <color name="input_register_bg">#3b4148</color>
+    <color name="input_register_hint">#5e6266</color>
+    <color name="btn_login">#26ae90</color>
+    <color name="btn_login_bg">#eceef1</color>
+    <color name="lbl_name">#333333</color>
+    <color name="btn_logut_bg">#ff6861</color>
+
+    <color name="black">#000000</color>
+    <color name="jet">#222222</color>
+    <color name="oil">#333333</color>
+    <color name="monsoon">#777777</color>
+    <color name="jumbo">#888888</color>
+    <color name="aluminum">#999999</color>
+    <color name="base">#AAAAAA</color>
+    <color name="iron">#CCCCCC</color>
+    <color name="white">#FFFFFF</color>
+
+
+
+
+
+    <color name="group_member_list_item">#c6f45607</color>
+
+
+    <color name="background_dialog">#c68c4104</color>
+    <color name="indigo">#dbf45607</color>
+    <color name="pink">#db4af407</color>
+
+
+</resources>

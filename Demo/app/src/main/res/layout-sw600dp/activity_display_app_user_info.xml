@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Profile.theme"
+    tools:context="com.example.hakeem.demo.displayAppUserInfo">
+
+    <ImageView
+        android:id="@+id/header_cover_image"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/profile_cover" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/user_profile_photo"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_below="@+id/header_cover_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-70dp"
+        android:elevation="5dp"
+        android:padding="10dp"
+        android:scaleType="centerCrop"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/profile_photo"
+        app:civ_border_color="#c4c14b06"
+        app:civ_border_width="1dp" />
+
+    <RelativeLayout
+        android:id="@+id/profile_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header_cover_image"
+        android:background="@color/inputTextColor"
+        android:elevation="4dp"
+        android:paddingBottom="5dp">
+
+
+        <ImageView
+            android:id="@+id/add_new_member"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/ic_add_member"
+            android:tint="#f4c266"/>
+
+        <ImageView
+            android:id="@+id/empty_group"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/group_member_remove"
+            android:tint="#f4c266"/>
+
+        <TextView
+            android:id="@+id/user_displayed_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:text="Mohamed Hakeem"
+            android:textSize="30sp"
+            android:textStyle="italic"
+            android:textColor="@color/white"/>
+
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/user_displayed_name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="hakeem531"
+            android:textSize="25sp"
+            android:textStyle="italic"
+            android:textColor="@color/white" />
+
+
+<!--**android:src="@drawable/wifi_connected_icon"-->
+        <ImageView
+            android:id="@+id/wifi_icon"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/wifi_connected_icon"
+            android:layout_below="@+id/username"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/group_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/wifi_icon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="3dp"
+            android:text="@string/your_group_is_empty"
+            android:textSize="22sp"
+            android:textStyle="italic"
+            android:textColor="#fff"/>
+
+        <ImageView
+            android:id="@+id/group_state_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/group_state"
+            android:src="@drawable/ic_group_state_sad"
+            android:layout_toEndOf="@id/group_state"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="9dp"
+            android:layout_below="@+id/wifi_icon"
+            android:tint="#f4c266"/>
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/group_members"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="8dp"
+        android:background="#a8912f02"
+        android:layout_below="@+id/profile_layout"/>
+</RelativeLayout>

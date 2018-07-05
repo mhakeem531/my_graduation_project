@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register_activity_back_ground"
+    tools:context="com.example.hakeem.demo.SemiStartActivity">
+<!-- android:background="@drawable/bg_gradien"
+android:background="#4d230e"
+"-->
+
+    <!--<android.support.constraint.Guideline-->
+        <!--android:id="@+id/guide_line"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--app:layout_constraintGuide_begin="0dp"-->
+        <!--app:layout_constraintGuide_percent="0.5"/>-->
+
+    <ImageView
+        android:id="@+id/qr_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tint="#4d230e"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.175"
+        app:srcCompat="@drawable/qr_code" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8sp"
+        android:layout_marginEnd="8sp"
+        android:layout_marginTop="32sp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="@string/demo"
+        android:textColor="#4d230e"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/qr_image"
+        app:layout_constraintStart_toStartOf="@+id/qr_image"
+        app:layout_constraintTop_toBottomOf="@+id/qr_image"
+        app:layout_constraintVertical_bias="0.079"
+        android:layout_marginRight="8sp" />
+
+    <Button
+        android:id="@+id/go_to_scanner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8sp"
+        android:layout_marginTop="68sp"
+        android:text="@string/scan_qr_code"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.694"
+        android:background="@android:color/transparent"
+        android:textColor="#4d230e"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-light"/>
+<!-- android:foreground="?attr/selectableItemBackground"-->
+
+</android.support.constraint.ConstraintLayout>

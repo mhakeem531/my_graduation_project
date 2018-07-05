@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hakeem.demo.GoogleVisionScanningActivity">
+
+
+    <fragment
+        android:id="@+id/barcode_scanner"
+        android:name="info.androidhive.barcode.BarcodeReader"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:auto_focus="true"
+        app:use_flash="false" />
+
+    <info.androidhive.barcode.ScannerOverlay
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_gradien"
+        app:line_color="#702505"
+        app:line_speed="2"
+        app:line_width="4"
+        app:square_height="300"
+        app:square_width="300" />
+    <!--android:background="#16f406"-->
+</android.support.constraint.ConstraintLayout>

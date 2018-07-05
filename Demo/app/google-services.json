@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "802109326593",
+    "firebase_url": "https://fir-a6e0c.firebaseio.com",
+    "project_id": "fir-a6e0c",
+    "storage_bucket": "fir-a6e0c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802109326593:android:ba8b6d49e71bfe82",
+        "android_client_info": {
+          "package_name": "com.example.hakeem.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "802109326593-nunn3hf32s1gm8n34s6pguaft2196c4t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hakeem.demo",
+            "certificate_hash": "8df662d6dfc65b0027d8602cf8b19cd9a1e70567"
+          }
+        },
+        {
+          "client_id": "802109326593-oblon5a7iikj6inno0h5uun8oilvfs5u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYjfto0YeDIuEfTv-wf4VFTxuOiSR1bVE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "802109326593-oblon5a7iikj6inno0h5uun8oilvfs5u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

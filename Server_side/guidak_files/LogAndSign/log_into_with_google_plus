@@ -1,0 +1,32 @@
+<?php
+
+
+
+require_once 'include/DB_Functions.php';
+$db = new DB_Functions();
+
+// json response array
+$response = array("error" => FALSE);
+
+if (isset($_GET['email'])) {
+
+    $email = $_GET['email'];
+
+    // check if user is already existed with the same email
+    if ($db->isUserExisted($email)) {
+        // user already existed
+        if($db->getGmailRegisterState($email) == 0){
+            echo "0";
+        }else{
+            echo "1";
+        }
+        
+    } else {
+    
+       
+    }
+} else {
+    echo "not exist";
+}
+?>
+

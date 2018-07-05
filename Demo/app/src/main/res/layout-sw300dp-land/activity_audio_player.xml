@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    android:id="@+id/audio_player_background"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/laust"
+    tools:context="com.example.hakeem.demo.AudioPlayerActivity"
+    tools:layout_editor_absoluteY="73dp">
+
+    <ImageView
+        android:id="@+id/audio_player_background_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_gradien"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/statue_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Statue description"
+        android:textAlignment="center"
+        android:textColor="#2b1202"
+        android:textSize="40sp"
+        app:fontFamily="cursive"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/statue_image"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/statue_image"
+        android:layout_width="202dp"
+        android:layout_height="201dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/laust"
+        app:civ_border_color="#a94608"
+        app:civ_border_width="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.491" />
+
+
+    <ImageButton
+        android:id="@+id/play_pause_btn"
+        android:layout_width="90dp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="64dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_pause"
+        android:tint="#da461e05"
+        app:layout_constraintEnd_toEndOf="@+id/statue_description"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/statue_description"
+        app:layout_constraintTop_toBottomOf="@+id/statue_description"
+        app:srcCompat="@drawable/ic_pause" />
+
+    <!--<ImageButton-->
+    <!--android:id="@+id/play_pause_btn"-->
+    <!--android:layout_width="90dp"-->
+    <!--android:layout_height="52dp"-->
+    <!--android:layout_marginBottom="16dp"-->
+    <!--android:layout_marginEnd="8dp"-->
+    <!--android:layout_marginLeft="16dp"-->
+    <!--android:layout_marginRight="8dp"-->
+    <!--android:layout_marginStart="16dp"-->
+    <!--android:layout_marginTop="7dp"-->
+    <!--android:background="@android:color/transparent"-->
+    <!--android:src="@drawable/ic_pause"-->
+    <!--android:text="@string/pause"-->
+    <!--android:textColor="#050505"-->
+    <!--android:textSize="20sp"-->
+    <!--android:tint="#da461e05"-->
+    <!--app:fontFamily="sans-serif-light"-->
+    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--app:layout_constraintEnd_toEndOf="parent"-->
+    <!--app:layout_constraintHorizontal_bias="0.52"-->
+    <!--app:layout_constraintStart_toStartOf="parent"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/seekBar"-->
+    <!--app:layout_constraintVertical_bias="0.19" />-->
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/tv_pass"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="00:00"-->
+    <!--android:textColor="@android:color/holo_orange_dark"-->
+    <!--tools:layout_editor_absoluteX="16dp"-->
+    <!--tools:layout_editor_absoluteY="331dp" />-->
+
+    <!--<TextView-->
+    <!---->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="00:00"-->
+    <!--android:textColor="@android:color/holo_orange_dark"-->
+    <!--tools:layout_editor_absoluteX="541dp"-->
+    <!--tools:layout_editor_absoluteY="331dp" />-->
+
+
+    <!--&lt;!&ndash; android:progressDrawable="@drawable/seek_bar_style" &ndash;&gt;-->
+    <!--<SeekBar-->
+    <!--android:id="@+id/seekBar"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:colorControlActivated="#301403"-->
+    <!--android:progressBackgroundTint="#e77645"-->
+    <!--android:progressTint="#301403"-->
+    <!--tools:layout_editor_absoluteX="8dp"-->
+    <!--tools:layout_editor_absoluteY="358dp" />-->
+
+
+    <TextView
+        android:id="@+id/tv_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="00:00"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/seekBar"
+        app:layout_constraintEnd_toEndOf="@+id/statue_image"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/seekBar" />
+
+    <TextView
+        android:id="@+id/tv_due"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginStart="8dp"
+        android:text="00:00"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/seekBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toEndOf="@+id/play_pause_btn" />
+
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="319dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:colorControlActivated="#301403"
+        android:progressBackgroundTint="#e77645"
+        android:progressTint="#301403"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/statue_image" />
+
+
+
+
+</android.support.constraint.ConstraintLayout>

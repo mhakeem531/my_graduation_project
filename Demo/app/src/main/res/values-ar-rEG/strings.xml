@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">الإعدادت</string>
+    <string name="settings_title_activity">الإعدات</string>
+    <string name="pref_langs_key" translatable="false">اللغه</string>
+    <string name="pref_langs_label">لغه الإستماع</string>
+    <string name="pref_langs_label_arabic">لغه عربيه</string>
+    <!--<string name="pref_langs_arabic">"لغه عربيه "</string>-->
+    <string name="scan_qr">مسح QR</string>
+    <string name="play">بدأ</string>
+    <string name="resume">إستئناف</string>
+    <string name="pause">إيقاف</string>
+    <string name="found_new_qr_code">وجدت qr جديد؟</string>
+    <string name="demo">احصل علي المعلومات عند مسح ال QR</string>
+    <string name="scan_qr_code">" مسح QR؟"</string>
+    <string name="hint_email">البريد الإلكتروني</string>
+    <string name="hint_password">كلمه المرور</string>
+    <string name="hint_name">"الإسم "</string>
+    <string name="btn_login">دخول</string>
+    <string name="btn_register">تسجيل الدخول</string>
+    <string name="btn_link_to_register">لست عضوا معنا! قم بإنشاء حساب</string>
+    <string name="btn_link_to_login">عضو معانا! قم بالدخول</string>
+    <string name="welcome">مرحبا</string>
+    <string name="btn_logout">تسجيل خروج</string>
+    <string name="name">الإسم الكامل</string>
+    <string name="create_account">لا تمتلك حساب! قم بعمل حساب</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="password">كلمه المرور</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="re_enter_password">اعاده كلمه المرور</string>
+    <string name="create_new_account">انشاء حساب جديد</string>
+    <string name="already_a_member_login">عضو معانا! قم بالدخول</string>
+    <string name="left">مغادره</string>
+    <string name="your_info">المعلومات الشخصية</string>
+    <string name="don_t_have_account_let_s_create_one">قم بإنشاء حساب جديد</string>
+    <string name="error_while_query">"شيئ ما خطأ اثناء الحصول علي المعلومات المطلوبه "</string>
+    <string name="unknown_qr">قمت بعمل مسح ل QR غير معروف</string>
+    <string name="enable_share_listening_feature">من فضلك قم بتفعيل خاصيه مشاركه الإستماع أولا</string>
+    <string name="group_empty">لايوجد اعضاء…انت الان بمفردك</string>
+    <string name="your_group_is_empty">مجموعتك فارغة</string>
+    <string name="not_alone_in_listening">انت لست وحدك عند الاستماع</string>
+    <string name="profile_image_updated">تم تحديث الصوره الشخصيه</string>
+    <string name="profile_image_didnt_updated">لو يتم تحديث الصوره الشخصيه بنجاح</string>
+    <string name="upload_image">جاري التحميل</string>
+    <string name="add_new_member">إضافه عضو جديد للمجموعه</string>
+    <string name="member_username">اسم المستخدم للعضو الجديد</string>
+    <string name="ok">موافق</string>
+    <string name="cancel">إلغاء</string>
+    <string name="remove_member">إزاله عضو من المجموعه؟</string>
+    <string name="error_while_scanning">"حدث خطأ اثناء مسح ال QR "</string>
+    <string name="check_available_network">من فضلك تأكد من الاتصال بالشبكه</string>
+    <string name="authenticating">جاري التحقيق</string>
+    <string name="enter_form_parameter">قم بأدخال البيانات بشكل سليم</string>
+    <string name="logging">جاري الدخول</string>
+    <string name="login_failed">فشل اثناء الدخول</string>
+    <string name="enter_valid_mail">قم بإدخال بريد اليكتروني صحيح</string>
+    <string name="password_check">كلمه المرور مابين 4 الي 10 حروف</string>
+    <string name="image_fetch">جاري التحقق من الصوره</string>
+    <string name="device_token_didnt_update">كلمه تعريف الجهاز لم يتم تحديثها…من فضلك قم بإعاده تثبيت التطبيق مجددا</string>
+    <string name="new_track">هناك ملف صوتي جديد؟</string>
+    <string name="play_new_track">هل تريد البدأ في الاستماع؟</string>
+    <string name="select_unique_username">من فضلك اختار اسم مستخدم اخر…هذا موجود بالفعل</string>
+    <string name="your_username_is">"اسم المستخدم الخاص بك هو "</string>
+    <string name="reason_for_user_name">يمكنك استخدامه في خاصيه مشاركه الاستماع</string>
+    <string name="select_lang_first">قم أولا بتحديد لغه الاستماع من الاعدادت</string>
+    <string name="creating_account">انشاء حساب…</string>
+    <string name="sign_up_failed">فشل في تسجيل الدخول</string>
+    <string name="name_check">3حروف علي الاقل</string>
+    <string name="mail_check">قم بإدخال بريد اليكتروني صحيح</string>
+    <string name="password_match">كلمتا المرور ليست متطابقتين</string>
+    <string name="player_title">تشغيل ملف صوتي</string>
+    <string name="profile">الحساب</string>
+    <string name="log_in">دخول</string>
+    <string name="mail_hint">بريد الكتروني</string>
+    <string name="password_hint">كلمه المرور</string>
+    <string name="try_unique_username_hint">حاول باسم مستخدم جديد غير موجود مسبقأ</string>
+    <string name="submit_unique_username">ارسال</string>
+    <string name="full_name_hint">الاسم الكامل</string>
+    <string name="re_password_hint">اعاده كلمه المرور</string>
+    <string name="register">تسجيل الدخول</string>
+    <string name="home">الرئيسيه</string>
+    <string name="scanner">ماسح ال QR</string>
+    <string name="settings">الإعدات</string>
+    <string name="fire_group_share_listening">انشاء مجموعه(مشاركه الاستماع)</string>
+    <string name="visitors_feed_backs">اراء الزائرين</string>
+    <string name="leave_us">مغادره</string>
+    <string name="more_info">معلومات إضافيه</string>
+    <string name="about_guidake_team">عن فريق العمل</string>
+    <string name="successfully_registered">تم التسجيل بنجاح!</string>
+    <string name="sty_to_select_username">انتظر معنا لاختيار اسم مستخدم جديد</string>
+    <string name="select_unique_username_alert">لم نستطيع اختيار اسم مستخدم خاص بك…برجاء قم بمحاوله الاختيار</string>
+    <string name="select_username">قم بإدخال اسم مستخدم جديد</string>
+    <string name="mail_valid">يرجي استخدام بريد اليكتروني حقيقي</string>
+    <string name="failed_login_google">شيئ ما خطأ قد حدث اثناء التسجيل من فضل حاول لاحقا</string>
+    <string name="gmail_used_before">هذا البريد مستخدم من قبل حساب اخر</string>
+    <string name="use_gmail_in_login_form">من فضلك استخدم هذا البريد في عمل تسجيل دخول في الفورم</string>
+    <string name="how_to_use">كيفيه الاستخدام</string>
+    <string name="welcome_to_guidak">اهلا بك مع Guidak</string>
+    <string name="brief_description_for_using">ازاي تستخدم التطبيق: </string>
+    <string name="usage">
+
+        التطبيق هايكون زي المرشد الخاص بيك داخل المتحف.
+        \n
+        لو لاقيت قطعه اثريه وعجبتك, كل اللي هاتعمله من الرئيسيه تضغط علي
+       "مسح QR؟.
+        \n
+        او انك تضغط عليه من القايمه الجانبيه,وبعدها تقدر تستمع لملف صوتي فيه بعض المعلومات عن القطعه دي.
+        \n
+        تقدر كمان تعمل مجموعه من الناس معاك وتستمعوا سوا لنفس المعلومات بس انت اللي تعمل فحص لل qr,
+        ودا من خلال انك تضغط علي انشاء مجموعه من القايمه الجانبيه وبعد كدا تقدر تضيف الاشخاص بأسماء المستخدمين الخاصه بيهم وتقدر تحذف منهم كمان.
+        \n
+        كمان تقدر تقول رأيك في الزياره دي وتشوف اراء الناس التانيه كمان
+        \n
+        شكراً.
+    </string>
+    <string name="check_you_internet_connection_and_reopen_this_page">تأكد من وجود اتصال الانترنت واعد فتح الصفحه</string>
+    <string name="user_already_fired_group">قمت بعمل مجموعه مسبقا… تسطيع الان اضافه اشخاص فقط</string>
+
+
+</resources>

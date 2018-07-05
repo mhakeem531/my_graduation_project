@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register_activity_back_ground"
+    android:orientation="vertical"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
+    tools:context=".PromptUniqueUsernameActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/unique_username_filed"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_brown"
+            android:drawableLeft="@drawable/user_name_icon"
+            android:drawableStart="@drawable/user_name_icon"
+            android:hint="@string/try_unique_username_hint"
+            android:inputType="textPersonName"
+            android:textColor="@color/inputTextColor"
+            android:theme="@style/AppTheme.InputTextThem"
+            app:fontFamily="serif"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@android:style/Widget.Material.Light.ProgressBar.Large.Inverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp" />
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:gravity="center">-->
+
+        <!--<Button-->
+            <!--android:id="@+id/submit_username_button"-->
+            <!--android:layout_width="185dp"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginBottom="40dp"-->
+            <!--android:background="@drawable/rounded_gmail_signup"-->
+            <!--android:fontFamily="serif"-->
+            <!--android:text="submit"-->
+            <!--android:textAllCaps="false"-->
+            <!--android:textColor="@color/textColor"-->
+            <!--android:textSize="30sp"/>-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="4" />
+
+        <!--**android:background="@drawable/rounded_gmail_signup" -->
+        <Button
+            android:id="@+id/submit_username_button"
+            android:layout_width="45dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:background="@drawable/x_gma_ci"
+            android:fontFamily="serif"
+            android:text="@string/submit_unique_username"
+            android:textAllCaps="false"
+            android:textColor="@color/textColor"
+            android:textSize="30sp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

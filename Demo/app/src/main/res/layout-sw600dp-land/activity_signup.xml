@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register_activity_back_ground"
+    android:gravity="center"
+    android:orientation="horizontal"
+    tools:context="com.example.hakeem.demo.SignupActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/logo" />
+
+        <!--**android:background="@drawable/rounded_gmail_signup"-->
+        <LinearLayout
+            android:id="@+id/login_in_with_gmail"
+            android:layout_width="180dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/x_gma_ci"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="0dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:src="@drawable/google_plus"
+                app:civ_border_color="@color/white"
+                app:civ_border_width="2dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="3"
+                android:background="@android:color/transparent"
+                android:fontFamily="serif"
+                android:text="Gmail"
+                android:textAlignment="center"
+                android:textColor="@color/textColor"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+        <!--**android:background="@drawable/rounded_gmail_signup"-->
+        <Button
+            android:id="@+id/btn_signup"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/x_gma_ci"
+            android:fontFamily="serif"
+            android:text="@string/register"
+            android:textAllCaps="false"
+            android:textColor="@color/textColor"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/link_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:layout_marginTop="5dp"
+            android:gravity="bottom"
+            android:text="@string/already_a_member_login"
+            android:textColor="@color/SolidColorCursor"
+            android:textSize="40sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingStart="20dp"
+        android:paddingRight="20dp"
+        android:background="#8c995038"
+        android:layout_margin="15dp">
+
+        <EditText
+            android:id="@+id/input_name"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/rounded_brown"
+            android:hint="@string/full_name_hint"
+            android:inputType="textPersonName"
+            android:textColor="@color/inputTextColor"
+            android:textSize="30sp"
+            android:theme="@style/AppTheme.InputTextThem"
+            app:fontFamily="serif" />
+
+        <EditText
+            android:id="@+id/input_email"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/rounded_brown"
+            android:hint="@string/mail_hint"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/inputTextColor"
+            android:textSize="30sp"
+            android:theme="@style/AppTheme.InputTextThem"
+            app:fontFamily="serif" />
+
+
+        <EditText
+            android:id="@+id/input_password"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/rounded_brown"
+            android:hint="@string/password_hint"
+            android:inputType="textPassword"
+            android:textColor="@color/inputTextColor"
+            android:textSize="30sp"
+            android:theme="@style/AppTheme.InputTextThem"
+            app:fontFamily="serif" />
+
+        <EditText
+            android:id="@+id/input_reEnterPassword"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/rounded_brown"
+            android:hint="@string/re_password_hint"
+            android:inputType="textPassword"
+            android:textColor="@color/inputTextColor"
+            android:textSize="30sp"
+            android:theme="@style/AppTheme.InputTextThem"
+            app:fontFamily="serif" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

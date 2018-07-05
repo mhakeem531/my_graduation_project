@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#bb663016"
+    tools:context=".PostFeedback">
+
+    <EditText
+        android:id="@+id/feedback_input_text"
+        android:layout_width="310dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="8dp"
+        android:background="#b3abab"
+        android:ems="10"
+        android:hint="leave your feedback text here!!!"
+        android:inputType="textMultiLine"
+        android:paddingEnd="5dp"
+        android:paddingStart="5dp"
+        android:textAlignment="viewStart"
+        android:textColor="#0a0a0a"
+        android:textColorHint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_gravity="start" />
+
+    <ImageButton
+        android:id="@+id/attached_photo_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:background="#00ffffff"
+        android:src="@drawable/baseline_add_photo_alternate_black_48"
+        app:layout_constraintBottom_toTopOf="@+id/attached_photo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/feedback_input_text"
+        app:layout_constraintVertical_bias="0.0"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="8dp" />
+
+    <Button
+        android:id="@+id/submit_feedback_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/holo_red_light"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="@string/submit_unique_username"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/attached_photo"
+        android:layout_width="0dp"
+        android:layout_height="259dp"
+        android:layout_marginBottom="36dp"
+        app:layout_constraintBottom_toTopOf="@+id/submit_feedback_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/about_team_back"/>
+</android.support.constraint.ConstraintLayout>

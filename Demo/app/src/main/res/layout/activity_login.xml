@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
+    android:paddingTop="10dp"
+    android:background="@drawable/register_activity_back_ground"
+    tools:context="com.example.hakeem.demo.LoginActivity">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/logo" />
+
+    <include
+        android:id="@+id/user_required_info"
+        layout="@layout/login_user_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+<!-- **android:background="@drawable/rounded_gmail_signup"-->
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="185dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/x_gma_ci"
+        android:fontFamily="serif"
+        android:text="@string/log_in"
+        android:textAllCaps="false"
+        android:textColor="@color/textColor"
+        android:layout_marginTop="65dp"/>
+
+
+    <TextView
+        android:id="@+id/link_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:gravity="bottom"
+        android:text="@string/don_t_have_account_let_s_create_one"
+        android:textColor="@color/SolidColorCursor"
+        android:textSize="25sp" />
+
+
+</LinearLayout>

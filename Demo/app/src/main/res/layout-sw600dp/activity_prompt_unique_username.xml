@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register_activity_back_ground"
+    android:orientation="vertical"
+    android:paddingLeft="35dp"
+    android:paddingRight="35dp"
+    tools:context=".PromptUniqueUsernameActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/unique_username_filed"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/rounded_brown"
+            android:drawableLeft="@drawable/user_name_icon"
+            android:drawableStart="@drawable/user_name_icon"
+            android:hint="@string/try_unique_username_hint"
+            android:inputType="textPersonName"
+            android:textColor="@color/inputTextColor"
+            android:theme="@style/AppTheme.InputTextThem"
+            app:fontFamily="serif" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_gravity="center"
+        android:layout_width="125dp"
+        android:layout_height="125dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+<!--**            android:background="@drawable/rounded_gmail_signup"
+ -->
+        <Button
+            android:id="@+id/submit_username_button"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="40dp"
+            android:fontFamily="serif"
+            android:background="@drawable/x_gma_ci"
+            android:text="@string/submit_unique_username"
+            android:textAllCaps="false"
+            android:textSize="56sp"
+            android:textColor="@color/textColor" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
