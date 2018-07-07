@@ -171,12 +171,7 @@ public final class Variables {
     public static String UPLOAD_FEEDBACK_TEXT_PHOTO = serverUrl + "guidak_files/feedback_scripts/upload_feedback_photo_text.php";
 
     public static String UPLOAD_FEEDBACK_PHOTO_ONLY = serverUrl + "guidak_files/feedback_scripts/upload_feedback_photo_only.php";
-    /**
-     * {{{{{{{{{{{{{{{Variables new version}}}}}}}}}}}}}}}
-     **/
-    public static String SSID = "hamdy";
-    public static String KEY = "cap#@#ahmed45814**tarek";
-
+   
 
     public static boolean isTokenRefreshedAfterLogIn = false;
 
