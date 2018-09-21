@@ -1,7 +1,7 @@
 # Guidak
       an android application used in Egyptian museum...
       it works as follow
-          there will be a [QR code](https://en.wikipedia.org/wiki/QR_code) for each piece in museum,
+          there will be a (qr code) for scanning a QR code and get result
           and once you found an interesting piece, then you can scan it's QR code,
           an audio file contains some information will be deliverd to you for listening while you watch it.
           you can also creat a group for share listening by request their usernames and once you scan a QR,
